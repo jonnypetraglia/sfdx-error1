@@ -1,15 +1,30 @@
 {
     "packageDirectories": [
         {
-            "path": "force-app",
+            "package": "Foo",
+            "path": "Foo",
+            "versionNumber": "1.0.0.NEXT",
             "default": true
+        },
+        {
+            "package": "Bar",
+            "path": "Bar",
+            "versionNumber": "1.0.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "Foo",
+                    "versionNumber": "1.0.0.LATEST"
+                }
+            ]
         }
     ],
     "name": "GithubTest",
     "namespace": "",
     "sfdcLoginUrl": "https://login.salesforce.com",
-    "sourceApiVersion": "52.0",
+    "sourceApiVersion": "54.0",
     "packageAliases": {
-        "GithubTest@0.1.0-1": "04t3n000000lD02AAE"
+        "Foo": "0Ho3n000000KyjzCAC",
+        "Bar": "0Ho3n000000Kyk4CAC",
+        "Foo@1.0.0-1": "04t3n000000ZnCrAAK"
     }
 }
