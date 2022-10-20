@@ -8,8 +8,7 @@
     "name": "GithubTest",
     "namespace": "",
     "sfdcLoginUrl": "https://login.salesforce.com",
-    "sourceApiVersion": "52.0",
+    "sourceApiVersion": "56.0",
     "packageAliases": {
-        "GithubTest@0.1.0-1": "04t3n000000lD02AAE"
     }
 }
